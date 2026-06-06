@@ -64,3 +64,6 @@ export LESS_TERMCAP_ZW=$'\e[75m'
 # Finally wire up `man` to use `less`
 # this is usually the default but let's just be sure
 export MANPAGER='less'
+#for kali linux 
+#export MANROFFOPT="-c" 
+#discard the rest above
