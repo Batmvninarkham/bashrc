@@ -67,9 +67,12 @@ export MANPAGER='less'
 #for kali linux 
 #export MANROFFOPT="-c" 
 #discard the rest above
-
+#edit the prompt dirtrim to change dir depth
+PROMPT_DIRTRIM=1
 host='\[\e[1;33m\]\h\[\e[0m\]'
 user='\[\e[1;31m\]\u\[\e[0m\]'
+dirc='\[\e[1;36m\]\w\[\e[0m\]'
 Time='\[\e[1;30m\]\A\[\e[0m\]'
+PS1="$Time $user $host $dirc \$ "
 
-PS1="$Time $user $host \$ "
+
