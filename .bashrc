@@ -67,3 +67,9 @@ export MANPAGER='less'
 #for kali linux 
 #export MANROFFOPT="-c" 
 #discard the rest above
+
+host='\[\e[1;33m\]\h\[\e[0m\]'
+user='\[\e[1;31m\]\u\[\e[0m\]'
+Time='\[\e[1;30m\]\A\[\e[0m\]'
+
+PS1="$Time $user $host \$ "
